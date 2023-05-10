@@ -108,3 +108,8 @@ body{
     margin: 1.5625rem 0;
     width: 10.3125rem;
 }
+
+.rating div.selected  {
+    background-color: var(--fouthary-color);
+    color: var(--secondary-color);
+  }

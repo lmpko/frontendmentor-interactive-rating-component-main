@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import RatingContext from './RatingContext';
 import thankIMG from "/images/illustration-thank-you.svg"
 
 const ThankComponent = () => {
+  const {rating} = useContext(RatingContext)
+  
   return (
-    <section class="thank-card card">
+  
+    <section className="thank-card card">
       <img src={thankIMG} alt="thank you" />
-      <div class="rating-summary">
-         You selected <span>5</span> out of 5
+      <div className="rating-summary">
+         You selected <span>{rating}</span> out of 5
       </div>
       <h1>Thank you!</h1>
       <p>
