@@ -53,6 +53,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 1.25rem 0;
 }
 
 .rating div{
@@ -116,4 +117,10 @@ body{
 .rating div.selected  {
     background-color: var(--fouthary-color);
     color: var(--secondary-color);
+  }
+
+  @media (min-width: 500px){
+    .card{
+        width: 22.625rem;
+    }
   }
