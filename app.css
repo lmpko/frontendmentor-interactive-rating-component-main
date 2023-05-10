@@ -20,6 +20,7 @@ body{
     flex-direction: column;
     background-color: var(--sixthary-color);
     font-weight: 400;
+    font-family: 'Overpass', sans-serif;
 }
 
 .card{
@@ -46,6 +47,7 @@ body{
     padding: .625rem;
     background-color: var(--seventh-color);
 }
+
 
 .rating{
     display: flex;
@@ -98,13 +100,15 @@ body{
 
 .thank-card h1{
     font-weight: 700;
+    margin-bottom: 0;
 }
+
 
 .rating-summary{
     color: var(--primary-color);
     background-color: var(--seventh-color);
     border-radius: 1.5625rem;
-    padding: .3125rem;
+    padding: .75rem 1.5625rem;
     margin: 1.5625rem 0;
     width: 10.3125rem;
 }
